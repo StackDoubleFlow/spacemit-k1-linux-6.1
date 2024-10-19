@@ -23,6 +23,7 @@ struct scatterlist;
  * The complexity of {map,unmap}_single is linearly dependent on this value.
  */
 #if defined(CONFIG_SOC_SPACEMIT_K1X)
+/* 512  ? */
 #define IO_TLB_SEGSIZE	256
 #else
 #define IO_TLB_SEGSIZE	128

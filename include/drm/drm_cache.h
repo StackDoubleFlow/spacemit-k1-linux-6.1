@@ -75,6 +75,8 @@ static inline bool drm_arch_can_wc_memory(void)
 	 * memory regions.
 	 */
 	return false;
+#elif defined(CONFIG_SOC_SPACEMIT_K1X)
+	return false;
 #else
 	return true;
 #endif
