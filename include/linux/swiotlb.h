@@ -24,7 +24,7 @@ struct scatterlist;
  */
 #if defined(CONFIG_SOC_SPACEMIT_K1X)
 /* 512  ? */
-#define IO_TLB_SEGSIZE	256
+#define IO_TLB_SEGSIZE	512
 #else
 #define IO_TLB_SEGSIZE	128
 #endif
